@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BTClient!</string>
+    <string name="app_name">蓝牙记录</string>
+    <string name="app_show">移动端蓝牙版</string>
+    <string name="add_hint1">输入添加的名称</string>
+    <string name="add_hint2">输入数量</string>
+    
+    <string name="append_hint1">追加样品数量</string>
+    <string name="append_hint2">容器名称起始（整数）</string>
+    <string name="append_hint3">容器前缀</string>
+    <string name="append_hint4">样品名称起始（整数）</string>
+    <string name="append_hint5">样品前缀</string>
+    <string name="append_edit1">追加样品数量：</string>
+    <string name="append_edit2">容器名称起始：</string>
+    <string name="append_edit3">容器前缀：</string>
+    <string name="append_edit4">样品名称起始：</string>
+    <string name="append_edit5">样品前缀：</string>
+                     
+    <string name="insert_hint1">整数</string>
+    <string name="insert_hint2">容器名</string>
+    <string name="insert_hint3">样品名</string>
+    <string name="insert_edit1">插入几号之后的空隙：</string>
+    <string name="insert_edit2">容器名称：</string>
+    <string name="insert_edit3">样品名称：</string>
+    
+    <string name="xuhao">序号</string>
+    <string name="sample_name">样品名</string>
+    <string name="rongqi_name">容器名</string>
+    <string name="weight">重量</string>
+    
+    <string name="setting">连接</string>
+    
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="btn1">查看信息</string>
+    <string name="delay">暂缓</string>
+    <string name="mycontinue">准备</string>
+    <string name="delete">删除</string>
+        
+    <string name="link">连接</string>
+    <string name="freshen">刷新</string>
+    <string name="save">保存</string>
+    <string name="quit">退出</string>
+    <string name="append">追加</string>
+    <string name="insert">插入</string>
+    <string name="voice">语音</string>
+        
+    <string name="alter_edit3">容器名</string>
+    <string name="alter_edit4">样品名</string>
+    <string name="alter_edit2">重量</string>
+    
+    <string name="batch_editbatch">批次</string>
+    <string name="batch_editbatchdes">批次描述:</string>
+    <string name="batch_editbatchname">批次名称：</string>
+    <string name="batch_editselect">批次选择</string>   
+    
+    <string name="btn_login">登录</string>
+          
+    <string name="goto_mylayout">点击</string>
+    <string name="goto_mainlayout">返回到mainlayout</string>
+    <string name="maylayout_info">可点击下面按钮返回</string>
+	<string name="mainlayout_info">点击下面按钮，哈哈</string>
+	
+	<string name="app_versionName">1.0.0</string>
+	<string name="soft_update_no">已经是最新版本，暂不需要更新！</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗？</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    
+    <string name="version">版本序号：V1.0 \n版权所有：中国科学院南京土壤研究所 \n项目支持：中国科学院仪器设备功能开发技术创新项目 \n联系邮箱：rhwang@issas.ac.cn</string>
+    <string name="Update_Content">系统更新了在“连接天平和断开天平”时出现的一些问题！</string>
+
+    <string name="app_id">5abdf102</string>
+</resources>

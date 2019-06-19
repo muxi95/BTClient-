@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "27.0.3"
+   
+    defaultConfig {
+        applicationId "com.test.BTClient"
+        minSdkVersion 11
+        targetSdkVersion 15
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/achartengine-1.0.0.jar')
+    compile files('libs/ksoap2android.jar')
+    compile files('libs/poi-3.15.jar')
+    compile files('libs/jxl-2.6.9.jar')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('src/main/jniLibs/Msc.jar')
+    compile files('src/main/jniLibs/Sunflower.jar')
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.github.ctiao:ndkbitmap-x86:0.9.21'
+    compile 'org.litepal.android:core:1.4.0'
+    //compile group: 'net.sourceforge.jexcelapi', name: 'jxl', version: '2.6.12'
+
+}

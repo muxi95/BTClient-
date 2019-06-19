@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center">
+
+    <TableRow
+        android:id="@+id/classroom_detail_item_tableRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left" >
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+      <TextView
+            android:id="@+id/itemContent"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:height="40dp"
+            android:textSize="14sp" >
+        </TextView>
+
+
+    </TableRow>
+
+</TableLayout>

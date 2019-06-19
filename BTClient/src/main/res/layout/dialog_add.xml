@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        />
+	<View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#aa000000" />
+	
+	<TextView android:id="@+id/title_new_devices1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alter_edit3"
+    />
+		<EditText
+        android:id="@+id/editText3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/alter_edit3"
+        android:visibility="gone"  
+        />
+		<EditText
+        android:id="@+id/editText4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/alter_edit3"
+        />
+	<TextView android:id="@+id/title_new_devices2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alter_edit4"
+    />
+	<EditText
+        android:id="@+id/editText5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/alter_edit4"
+    />
+	<TextView android:id="@+id/title_new_devices3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alter_edit2"
+    />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/alter_edit2">
+        <requestFocus />
+        </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm" />
+              
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:text="@string/cancel" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#aa000000" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:text="@string/delete" />
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:text="@string/mycontinue" />
+        <Button
+            android:id="@+id/btn_delay"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:text="@string/delay" />
+	
+     </LinearLayout>
+</LinearLayout>

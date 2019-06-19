@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<ProgressBar
+		android:id="@+id/update_progress"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleHorizontal" />
+	<TextView
+            android:id="@+id/txt_Content"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:height="30dp"
+            android:text="@string/Update_Content"
+            android:textSize="14sp" >
+     </TextView>
+</LinearLayout>
